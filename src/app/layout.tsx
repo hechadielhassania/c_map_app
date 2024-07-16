@@ -6,8 +6,8 @@ import { ApplicationLayout } from './application-layout'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Catalyst',
-    default: 'Catalyst',
+    template: '%s - Career Companion',
+    default: 'Career Companion',
   },
   description: '',
 }
@@ -22,6 +22,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     >
     <head>
       <meta charSet="utf-8"/>
+      <link rel="icon" href="/favicon.ico" />
       <link rel="stylesheet" href="https://rsms.me/inter/inter.css"/>
     </head>
     <body className="h-full">

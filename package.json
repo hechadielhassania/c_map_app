@@ -17,7 +17,9 @@
     "framer-motion": "^11.2.6",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "survey-core": "^1.11.6",
+    "survey-react-ui": "^1.11.6"
   },
   "devDependencies": {
     "@types/node": "^20",
