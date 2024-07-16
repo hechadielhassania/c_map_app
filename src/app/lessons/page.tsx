@@ -1,13 +1,16 @@
 import React from 'react';
-import SurveyComponent from './SurveyComponent'; // Adjust the path as necessary
-import surveyJson from './survey.json'; // Adjust the path as necessary
+import dynamic from 'next/dynamic';
 
-const LessonPage: React.FC = () => {
+const SurveyComponent = dynamic(() => import('./SurveyComponent'), {
+  ssr: false
+});
+
+const Page: React.FC = () => {
   return (
-    <div>
-      <SurveyComponent surveyJson={surveyJson} />
+    <div className="min-h-screen flex items-center justify-center">
+      <SurveyComponent />
     </div>
   );
 };
 
-export default LessonPage;
+export default Page;
