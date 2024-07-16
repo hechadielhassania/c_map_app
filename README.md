@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Catalyst Demo
 
-## Getting Started
-
-First, run the development server:
+To run the Catalyst demo, first install the npm dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Next, run the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-## Learn More
+# Tailwind Resources
+- https://tailwind-generator.com/generators
 
-To learn more about Next.js, take a look at the following resources:
+# Goals
+1. embed an iframe of nocodb
+2. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Learn
+- iframe-resizer
+  - https://iframe-resizer.com/
+  - https://iframe-resizer.com/frameworks/react/
+    - npm install @iframe-resizer/react --save
+- with nextjs
+  - https://stackoverflow.com/questions/69755112/cross-domain-iframe-resizer-on-nextjs
+- with Vue3
+  - https://iframe-resizer.com/frameworks/vue3/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+iFrame pitfalls
+- https://caisy.io/blog/nextjs-iframe-implementation
+- iframe best practices: https://blog.logrocket.com/best-practices-react-iframes/
 
-## Deploy on Vercel
+# Iframe
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- initial target (you must have nocodb running on local and login to get a valid url), e.g.
+```
+http://localhost:3000/#/nc/pqkxhv4pe0f9djh/mmsmk4cfu6ljawt/vwlid07r6nawqubg/view
+```
+- [child page API](https://iframe-resizer.com/api/child/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installing packages into nocodb with pnpm
+
+https://lerna.js.org/docs/recipes/using-pnpm-with-lerna

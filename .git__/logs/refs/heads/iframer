@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 b0ba428a93080900b4edefe4d2ca28092d322cad Angelo Cisneros <el-besto@users.noreply.github.com> 1718397641 -0400	Branch: iframer created @ b0ba428a93080900b4edefe4d2ca28092d322cad
+b0ba428a93080900b4edefe4d2ca28092d322cad ee1837c21498d0004171f417744aa5c537bb5b33 Angelo Cisneros <el-besto@users.noreply.github.com> 1718397825 -0400	commit: build(deps): add @iframe-resizer/parent 5.0.2
+ee1837c21498d0004171f417744aa5c537bb5b33 258ac90b3ac60dc8c0ecd4d2c694a0481af73feb Angelo Cisneros <el-besto@users.noreply.github.com> 1718901938 -0400	commit: build(deps): add @iframe-resizer/react
+258ac90b3ac60dc8c0ecd4d2c694a0481af73feb 19b9e795a2b989921d386477e3eeb4e93ffb96be Angelo Cisneros <el-besto@users.noreply.github.com> 1718901953 -0400	commit: chore: change default port to 4000 for dev
+19b9e795a2b989921d386477e3eeb4e93ffb96be 00d777a57c82f84fe43398d2f5b5664db1c1b194 Angelo Cisneros <el-besto@users.noreply.github.com> 1718911983 -0400	commit: base navbar top
+00d777a57c82f84fe43398d2f5b5664db1c1b194 357601874f384bc3e8010875eee180052444444e Angelo Cisneros <el-besto@users.noreply.github.com> 1718912003 -0400	commit: backup of catalyst application-layout w/minor tweaks
+357601874f384bc3e8010875eee180052444444e 67995131d5ebdab238d21f6d28c8034b37386e63 Angelo Cisneros <el-besto@users.noreply.github.com> 1718912035 -0400	commit: wip: iframe-resizer
+67995131d5ebdab238d21f6d28c8034b37386e63 46c3babb73713666c2e9c30162d33dd5b42bfc9e Angelo Cisneros <el-besto@users.noreply.github.com> 1718912071 -0400	commit: wip: navbar top required changes to html and body element classes
+46c3babb73713666c2e9c30162d33dd5b42bfc9e 92f4ee361655123d2cea5be1b8cadc3181a72ed5 Angelo Cisneros <el-besto@users.noreply.github.com> 1720529490 -0400	commit: build(deps): add @babel/runtime for iframer compatibility
+92f4ee361655123d2cea5be1b8cadc3181a72ed5 07ada7d8fade57f552b2aebb4e26be7f91bebc99 Angelo Cisneros <el-besto@users.noreply.github.com> 1720529594 -0400	commit: docs: add iframe-resizer notes
+07ada7d8fade57f552b2aebb4e26be7f91bebc99 9275b60f0df1f7e052f28d5d68866102432786a0 Angelo Cisneros <el-besto@users.noreply.github.com> 1720529777 -0400	commit: refactor: make NavbarTop component
+9275b60f0df1f7e052f28d5d68866102432786a0 07ada7d8fade57f552b2aebb4e26be7f91bebc99 Angelo Cisneros <el-besto@users.noreply.github.com> 1720529831 -0400	reset: moving to 07ada7d8fade57f552b2aebb4e26be7f91bebc99
+07ada7d8fade57f552b2aebb4e26be7f91bebc99 8c11b46e1ab88cdf3b5910249f8b8d11039da5bd Angelo Cisneros <el-besto@users.noreply.github.com> 1720529856 -0400	commit: refactor: make NavbarTop component
+8c11b46e1ab88cdf3b5910249f8b8d11039da5bd 2cd47878925b8aa2a962472ca7f0ff2ed867cb19 Angelo Cisneros <el-besto@users.noreply.github.com> 1720529893 -0400	commit: refactor: update SidebarLayout as directed in tailwind instructions
