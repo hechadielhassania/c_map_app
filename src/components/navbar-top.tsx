@@ -30,7 +30,7 @@ const user = {
 
 // Navigation items with icons
 const navigation = [
-  { name: 'Home', href: '/home', icon: HomeIcon, current: true },
+  { name: 'Home', href: '/', icon: HomeIcon, current: true },
   { name: 'PBA', href: '/pba', icon: UsersIcon, current: false },
   { name: 'Career Map', href: '/career-map', icon: Square3Stack3DIcon, current: false },
   { name: 'Lessons', href: '/lessons', icon: AcademicCapIcon, current: false },
