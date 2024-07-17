@@ -1,11 +1,12 @@
+
+
+
+
 import React from 'react';
-import dynamic from 'next/dynamic';
+import SurveyComponent from './SurveyComponent';
 
-const SurveyComponent = dynamic(() => import('./SurveyComponent'), {
-  ssr: false
-});
 
-const Page: React.FC = () => {
+const Lesson: React.FC = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <SurveyComponent />
@@ -13,4 +14,5 @@ const Page: React.FC = () => {
   );
 };
 
-export default Page;
+export default Lesson;
+
