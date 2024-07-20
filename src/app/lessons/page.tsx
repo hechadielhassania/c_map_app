@@ -18,7 +18,9 @@ const LessonsPage = () => {
       const lessonFiles = [
         '/data/lesson1.json',
         '/data/lesson2.json',
-        '/data/lesson3.json'
+        '/data/lesson3.json',
+        '/data/lesson4.json',
+        '/data/lesson5.json'
       ];
       
       const lessons = await Promise.all(
