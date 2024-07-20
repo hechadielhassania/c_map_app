@@ -136,7 +136,7 @@
        {
         "type": "html",
         "name": "question18",
-        "html": "<p><center><b>Great Job!</b>\n<br/>\nYou are one step closer to filling out your career map. </center></p>"
+        "html": "<center><p><b>Great Job!</b>\n<br/>\nYou are one step closer to filling out your career map. </p>"
        },
        {
         "type": "image",
@@ -317,7 +317,7 @@
        {
         "type": "html",
         "name": "question45",
-        "html": "<center><h3>Done!\n<br/>\nCongratulations!</h3></center>"
+        "html": "<center><p><b>Done!\n<br/>\nCongratulations!</b></p></center>"
        },
        {
         "type": "image",
